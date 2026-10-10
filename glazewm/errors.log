@@ -1,0 +1,2 @@
+[2m2026-10-06T02:17:58.033636Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Shell exec failed for 'zebar'. Make sure the program exists and is accessible from your shell. Error: The operation was canceled by the user. (0x800704C7)
+[2m2026-10-09T01:36:17.522965Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
