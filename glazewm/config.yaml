@@ -232,9 +232,14 @@ keybindings:
   - commands: ['toggle-tiling']
     bindings: ['alt+t']
 
-  # Change the focused window to be fullscreen.
+  # Fullscreen the focused window, not shown on top of zebar. Press again to
+  # restore it to its tiling position.
   - commands: ['toggle-fullscreen']
-    bindings: ['alt+f']
+    bindings: ['lwin+f']
+
+  # Make the focused window cover the entire monitor, including zebar.
+  - commands: ['toggle-fullscreen --shown-on-top']
+    bindings: ['lwin+shift+f']
 
   # Minimize focused window.
   - commands: ['toggle-minimized']
