@@ -351,3 +351,17 @@ keybindings:
     bindings: ['lwin+ctrl+8']
   - commands: ['move --workspace 9']
     bindings: ['lwin+ctrl+9']
+
+  # Cycle through workspaces with win+, and win+.
+  - commands: ['focus --prev-workspace']
+    bindings: ['lwin+oem_comma']
+  - commands: ['focus --next-workspace']
+    bindings: ['lwin+oem_period']
+  - commands: ['move --prev-workspace', 'focus --prev-workspace']
+    bindings: ['lwin+shift+oem_comma']
+  - commands: ['move --next-workspace', 'focus --next-workspace']
+    bindings: ['lwin+shift+oem_period']
+  - commands: ['move --prev-workspace']
+    bindings: ['lwin+ctrl+oem_comma']
+  - commands: ['move --next-workspace']
+    bindings: ['lwin+ctrl+oem_period']
