@@ -2,9 +2,10 @@
   "$schema": "https://github.com/glzr-io/zebar/raw/v3.3.1/resources/settings-schema.json",
   "startupConfigs": [
     {
-      "pack": "glzr-io.starter",
-      "widget": "with-glazewm",
+      "pack": "rice",
+      "widget": "bar",
       "preset": "default"
     }
   ]
 }
+
