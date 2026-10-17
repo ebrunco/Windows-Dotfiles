@@ -1,0 +1,218 @@
+﻿{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": {
+                "value": "\/Date(1791767934000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Sunday, October 11, 2026 9:18:54 PM"
+            },
+            "Manifests": 1678
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1791767943000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Sunday, October 11, 2026 9:19:03 PM"
+            },
+            "Manifests": 2420
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1790441968000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Saturday, September 26, 2026 12:59:28 PM"
+            },
+            "Manifests": 367
+        }
+    ],
+    "apps": [
+        {
+            "Name": "7zip",
+            "Version": "26.03",
+            "Source": "main",
+            "Updated": "\/Date(1791130932450)\/",
+            "Info": ""
+        },
+        {
+            "Name": "bat",
+            "Version": "0.26.1",
+            "Source": "main",
+            "Updated": "\/Date(1791777720014)\/",
+            "Info": ""
+        },
+        {
+            "Name": "btop",
+            "Version": "1.0.5",
+            "Source": "main",
+            "Updated": "\/Date(1791777720650)\/",
+            "Info": ""
+        },
+        {
+            "Name": "chafa",
+            "Version": "1.18.3",
+            "Source": "main",
+            "Updated": "\/Date(1791130930941)\/",
+            "Info": ""
+        },
+        {
+            "Name": "delta",
+            "Version": "0.20.1",
+            "Source": "main",
+            "Updated": "\/Date(1791777721717)\/",
+            "Info": ""
+        },
+        {
+            "Name": "eza",
+            "Version": "0.23.5",
+            "Source": "main",
+            "Updated": "\/Date(1791777719113)\/",
+            "Info": ""
+        },
+        {
+            "Name": "fd",
+            "Version": "10.5.0",
+            "Source": "main",
+            "Updated": "\/Date(1791253930475)\/",
+            "Info": ""
+        },
+        {
+            "Name": "ffmpeg",
+            "Version": "9.0.2",
+            "Source": "main",
+            "Updated": "\/Date(1791130958969)\/",
+            "Info": ""
+        },
+        {
+            "Name": "fzf",
+            "Version": "0.74.5",
+            "Source": "main",
+            "Updated": "\/Date(1791776971131)\/",
+            "Info": ""
+        },
+        {
+            "Name": "gcc",
+            "Version": "15.2.0",
+            "Source": "main",
+            "Updated": "\/Date(1791253928646)\/",
+            "Info": ""
+        },
+        {
+            "Name": "git",
+            "Version": "2.56.0",
+            "Source": "main",
+            "Updated": "\/Date(1791133475932)\/",
+            "Info": ""
+        },
+        {
+            "Name": "glazewm",
+            "Version": "3.10.1",
+            "Source": "extras",
+            "Updated": "\/Date(1791133626584)\/",
+            "Info": ""
+        },
+        {
+            "Name": "JetBrainsMono-NF",
+            "Version": "3.5.1",
+            "Source": "nerd-fonts",
+            "Updated": "\/Date(1791777019965)\/",
+            "Info": ""
+        },
+        {
+            "Name": "jq",
+            "Version": "1.8.2",
+            "Source": "main",
+            "Updated": "\/Date(1791777720226)\/",
+            "Info": ""
+        },
+        {
+            "Name": "lazygit",
+            "Version": "0.66.1",
+            "Source": "extras",
+            "Updated": "\/Date(1791777721292)\/",
+            "Info": ""
+        },
+        {
+            "Name": "make",
+            "Version": "4.4.1",
+            "Source": "main",
+            "Updated": "\/Date(1791253929478)\/",
+            "Info": ""
+        },
+        {
+            "Name": "neovim",
+            "Version": "0.12.5",
+            "Source": "main",
+            "Updated": "\/Date(1791253891031)\/",
+            "Info": ""
+        },
+        {
+            "Name": "pwsh",
+            "Version": "7.6.6",
+            "Source": "main",
+            "Updated": "\/Date(1791776969416)\/",
+            "Info": ""
+        },
+        {
+            "Name": "ripgrep",
+            "Version": "15.2.0",
+            "Source": "main",
+            "Updated": "\/Date(1791253930025)\/",
+            "Info": ""
+        },
+        {
+            "Name": "starship",
+            "Version": "1.26.0",
+            "Source": "main",
+            "Updated": "\/Date(1791776970486)\/",
+            "Info": ""
+        },
+        {
+            "Name": "unzip",
+            "Version": "6.00",
+            "Source": "main",
+            "Updated": "\/Date(1791253930854)\/",
+            "Info": ""
+        },
+        {
+            "Name": "wezterm",
+            "Version": "20240203-110809-5046fc22",
+            "Source": "extras",
+            "Updated": "\/Date(1791253012863)\/",
+            "Info": ""
+        },
+        {
+            "Name": "yazi",
+            "Version": "26.9.1",
+            "Source": "main",
+            "Updated": "\/Date(1791130881519)\/",
+            "Info": ""
+        },
+        {
+            "Name": "yt-dlp",
+            "Version": "2026.08.19",
+            "Source": "main",
+            "Updated": "\/Date(1791758110291)\/",
+            "Info": ""
+        },
+        {
+            "Name": "zebar",
+            "Version": "3.3.1",
+            "Source": "extras",
+            "Updated": "\/Date(1791253132646)\/",
+            "Info": ""
+        },
+        {
+            "Name": "zoxide",
+            "Version": "0.10.0",
+            "Source": "main",
+            "Updated": "\/Date(1791776970772)\/",
+            "Info": ""
+        }
+    ]
+}

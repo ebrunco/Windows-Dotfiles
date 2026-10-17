@@ -45,14 +45,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '10px'
+  inner_gap: '6px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '45px'
-    right: '10px'
-    bottom: '10px'
-    left: '10px'
+    top: '38px'
+    right: '6px'
+    bottom: '6px'
+    left: '6px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -365,3 +365,7 @@ keybindings:
     bindings: ['lwin+ctrl+oem_comma']
   - commands: ['move --next-workspace']
     bindings: ['lwin+ctrl+oem_period']
+
+  # Screenshot the focused window (saved to Pictures\Screenshots and copied).
+  - commands: ['shell-exec wscript //B %USERPROFILE%/.glzr/scripts/screenshot-window.vbs']
+    bindings: ['lwin+shift+d']
